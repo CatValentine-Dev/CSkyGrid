@@ -1,0 +1,15 @@
+name: CSkyGrid
+main: com.bernardo.skygrid.Main
+version: 1.0
+load: startup
+commands:
+  csg:
+    description: Use isso na frente de qualquer comando CSkyGrid para obter o resultado desejado. Exemplo /csg casa
+    usage: /csg <arg> Valido <args> <casa, setarcasa, recarregar>
+permissions:
+  cskygrid.casa:
+    description: Dar acesso a usar o comando /csg casa
+  cskygrid.setarcasa:
+    description: Dar acesso a usar o comando /csg setarcasa
+  cskygrid.recarregar:
+    description: Dar acesso a usar o comando /csg recarregar
